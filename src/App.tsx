@@ -5,6 +5,7 @@ import Expertise from './components/Expertise';
 import Projects from './components/Projects';
 import Press from './components/Press';
 import Experience from './components/Experience';
+import Gallery from './components/Gallery';
 import FloatingNav from './components/FloatingNav';
 import TopBar from './components/TopBar';
 
@@ -45,6 +46,10 @@ export default function App() {
           
           <div id="experience">
             <Experience />
+          </div>
+
+          <div id="gallery">
+            <Gallery />
           </div>
 
           {/* Footer */}

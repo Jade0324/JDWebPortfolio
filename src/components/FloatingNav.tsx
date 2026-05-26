@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { motion } from 'motion/react';
-import { User, Cpu, Briefcase, Newspaper, Calendar } from 'lucide-react';
+import { User, Cpu, Briefcase, Newspaper, Calendar, Image } from 'lucide-react';
 
 const navItems = [
   { id: 'profile', icon: User, label: 'Profile' },
@@ -8,6 +8,7 @@ const navItems = [
   { id: 'projects', icon: Briefcase, label: 'Projects' },
   { id: 'press', icon: Newspaper, label: 'Press' },
   { id: 'experience', icon: Calendar, label: 'Experience' },
+  { id: 'gallery', icon: Image, label: 'Gallery' },
 ];
 
 export default function FloatingNav() {
